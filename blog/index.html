@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" href="/../static/favicon.ico">
+        <meta charset="utf-8" />
+        <link href="/../static/css/styles.css" type="text/css" rel="stylesheet" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <style>
+         a { text-decoration: none; }
+         a { color: inherit; }
+        </style>
+    </head>
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href=""><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="/">Graham</a></li>
+            <li class="sidebar-nav-item"><a href="/">Home</a></li>
+            <li class="sidebar-nav-item"><a href="/#contact">Contact</a></li>
+            <li class="sidebar-nav-item"><a href="/music">Music</a></li>
+        </ul>
+    </nav>
+
+
+
+
+<style>
+.filterElements {
+  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 20px;
+  color: #212529
+  width: 100%;
+  line-height: 100%;
+  text-align: center;
+  margin: 0px;
+  display: none;
+}
+.show {
+  display: block;
+}
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.btn {
+  border: none;
+  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 14px;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(157, 209, 211);
+}
+.btn.active {
+  background-color: rgb(34, 95, 228);
+  color: white;
+}
+
+
+
+
+
+
+</style>
+
+<body>
+<!-- BLOG SECTION TOP -->
+<section class="masthead-short">
+    <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+                <h1>Project Links</h1>
+                <p class="lead">
+                    All my projects links are available below.
+                    Click any of following descriptions to see the full project.
+                <p class="lead">Click button(s) below to filter projects by category. <br></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- BLOG CONTENT -->
+<section class="content-section-short">
+    <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="filterBtns">
+                <button class="btn active" onclick="filterSelection('all')">Show all</button>
+                <button class="btn" onclick="filterSelection('github')">Github</button>
+                <button class="btn" onclick="filterSelection('medium')">Medium</button>
+                <button class="btn" onclick="filterSelection('tableau')">Tableau</button>
+            </div>
+            <div class="container justify-content-center">
+                <!-- blog item 1 -->
+                <div class="medium filterElements">
+                    <div class="col-md-10 offset-xl-1 mb-5 mb-lg-0">
+                        <h3>Crypto Signal Write-Up</h3>
+                        <p><em>Medium Article</em></p>
+                            <a href="https://medium.com/coinmonks/how-to-start-a-crypto-trading-side-hustle-1c56a309515e" target="_blank" rel="noopener noreferrer">
+                            <img src="/../static/assets/img/computer_dude.jpeg"
+                                 width="800"
+                                 height="200"
+                                 style="width: 800px; height: 200px; object-fit: cover;"
+                                 alt=""/>
+                        <p class="lead mb-5">
+                        Cras eget fermentum sem.
+                        Maecenas nec purus lorem, a sodales lectus.
+                        Etiam consequat nulla sit amet nisl volutpat ornare.
+                        Donec purus nulla, egestas ac porttitor et, pharetra nec felis.
+                        Donec lobortis fringilla blandit.
+                        Fusce a purus vel justo pulvinar tempor.</p></a>
+                    </div>
+            </div>
+                <!-- blog item 2 -->
+                <div class="medium filterElements">
+                    <div class="col-md-10 offset-xl-1 mb-5 mb-lg-0">
+                        <h3>Cryptocurrency Mining Analysis</h3>
+                        <p><em>Medium Article</em></p>
+                        <a href="https://medium.com/coinmonks/how-to-earn-passive-income-with-cryptocurrency-mining-c7adce1d34d5" target="_blank" rel="noopener noreferrer">
+                        <img src="/../static/assets/img/bull.png"
+                         width="800"
+                         height="200"
+                         style="width: 800px; height: 200px; object-fit: cover;"
+                         alt=""/>
+                    <p class="lead mb-5">
+                        Cras eget fermentum sem.
+                        Maecenas nec purus lorem, a sodales lectus.
+                        Etiam consequat nulla sit amet nisl volutpat ornare.
+                        Donec purus nulla, egestas ac porttitor et, pharetra nec felis.
+                        Donec lobortis fringilla blandit.
+                        Fusce a purus vel justo pulvinar tempor.</p></a>
+                    </div>
+                </div>
+                <!-- blog item 3 -->
+                <div class="github filterElements">
+                    <div class="col-md-10 offset-xl-1 mb-5 mb-lg-0">
+                        <h3>Carfax Web Scraper in Python</h3>
+                        <p><em>Code</em></p>
+                        <a href="https://github.com/grsahagian/carfax-scraper" target="_blank" rel="noopener noreferrer">
+                        <img src="/../static/assets/img/carfax_scraper.png"
+                             width="800"
+                             height="200"
+                             style="width: 800px; height: 200px; object-fit: cover;"
+                             alt=""/>
+                    <p class="lead mb-5">
+                        Cras eget fermentum sem.
+                        Maecenas nec purus lorem, a sodales lectus.
+                        Etiam consequat nulla sit amet nisl volutpat ornare.
+                        Donec purus nulla, egestas ac porttitor et, pharetra nec felis.
+                        Donec lobortis fringilla blandit.
+                        Fusce a purus vel justo pulvinar tempor.</p></a>
+                    </div>
+                </div>
+                <!-- blog item 4 -->
+                <div class="tableau filterElements">
+                    <div class="col-md-10 offset-xl-1 mb-5 mb-lg-0">
+                        <h3>Used Car Data Visualization</h3>
+                        <p><em>Visualization</em></p>
+                        <a href="https://public.tableau.com/views/carfax_radius100/make-modelhistogram?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer">
+                        <img src="/../static/assets/img/carfax_scraper.png"
+                             width="800"
+                             height="200"
+                             style="width: 800px; height: 200px; object-fit: cover;"
+                             alt=""/>
+                    <p class="lead mb-5">
+                        Cras eget fermentum sem.
+                        Maecenas nec purus lorem, a sodales lectus.
+                        Etiam consequat nulla sit amet nisl volutpat ornare.
+                        Donec purus nulla, egestas ac porttitor et, pharetra nec felis.
+                        Donec lobortis fringilla blandit.
+                        Fusce a purus vel justo pulvinar tempor.</p></a>
+                    </div>
+                </div>
+                <!-- blog item 5 -->
+                <div class="medium filterElements">
+                    <div class="col-md-10 offset-xl-1 mb-5 mb-lg-0">
+                        <h3>Used Car Data Write-Up</h3>
+                        <p><em>Medium</em></p>
+                        <a href="https://medium.com/geekculture/analyzing-the-used-car-market-in-2021-27fd460a9067" target="_blank" rel="noopener noreferrer">
+                        <img src="/../static/assets/img/carfax_scraper.png"
+                             width="800"
+                             height="200"
+                             style="width: 800px; height: 200px; object-fit: cover;"
+                             alt=""/>
+                    <p class="lead mb-5">
+                        Cras eget fermentum sem.
+                        Maecenas nec purus lorem, a sodales lectus.
+                        Etiam consequat nulla sit amet nisl volutpat ornare.
+                        Donec purus nulla, egestas ac porttitor et, pharetra nec felis.
+                        Donec lobortis fringilla blandit.
+                        Fusce a purus vel justo pulvinar tempor.</p></a>
+                    </div>
+                </div>
+
+                <!-- end post section -->
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- END BLOG CONTENT -->
+<script>
+   filterSelection("all");
+   function filterSelection(c) {
+      var x, i;
+      x = document.querySelectorAll(".filterElements");
+      if (c == "all") c = "";
+      Array.from(x).forEach(item => {
+         removeActiveClass(item, "show");
+         if (item.className.indexOf(c) > -1) addActiveClass(item, "show");
+      });
+   }
+   function addActiveClass(ele, name) {
+      var i, arr1, arr2;
+      arr1 = ele.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+         if (arr1.indexOf(arr2[i]) == -1) {
+            ele.className += " " + arr2[i];
+         }
+      }
+   }
+   function removeActiveClass(ele, name) {
+      var i, arr1, arr2;
+      arr1 = ele.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+         while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+         }
+      }
+      ele.className = arr1.join(" ");
+   }
+   var filterBtns = document.querySelector(".filterBtns");
+   var btns = filterBtns.getElementsByTagName("button");
+   for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+         var current = document.getElementsByClassName("active");
+         current[0].className = current[0].className.replace(" active", "");
+         this.className += " active";
+      });
+   }
+</script>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="/../static/js/scripts.js"></script>
+
+<!-- Footer-->
+<footer class="footer text-center">
+    <div class="container px-4 px-lg-5">
+        <ul class="list-inline mb-5">
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="https://github.com/grsahagian/" target="_blank" rel="noopener noreferrer"><i class="icon-social-github"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="https://grsahagian.medium.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-medium"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/graham-sahagian/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Graham Sahagian, 2021</p>
+    </div>
+</footer>
+</body>
+</html>
