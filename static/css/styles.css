@@ -11618,17 +11618,6 @@ footer.footer .social-link:hover {
 }
 
 
-/*Zoom In*/
-.zoomIn img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-.zoomIn:hover img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-}
 
 
 
